@@ -1,0 +1,179 @@
+<style>
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* portrait mode warning */
+#warning-message { display: none; 
+background-color: black;
+color:white;
+font-size:30px;
+}
+
+@media only screen and (orientation:portrait){
+.outer { display:none; }
+#warning-message { display:block; }
+
+ }
+
+@media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+
+    }
+    
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    cursor: url('images/cursor.cur'), default;
+
+}
+
+    
+    
+.outer {
+    color: white;
+    background-color: black;
+    width: 95%;
+    position: absolute;
+    left: 2.5%;
+    height: 100%;
+    
+}
+
+.counter {
+	line-height: 1;
+	text-align: justify;
+	font-size; 1.8vw;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 100vh;
+
+}
+
+.playlist {
+    line-height: 1;
+    text-align: justify;
+    font-size: 1.8vw;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    
+}
+
+@media screen and (min-width: 801px) {
+  div.playlist {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div.playlist {
+    font-size: 30px;
+  }
+} 
+
+.space {
+    height: 100vh;
+    position: relative;
+    color: black;
+}
+
+
+
+.bottom {
+    position: fixed;
+    bottom: 1px;
+    background: url("images/transparent-fire-gif.gif");
+    background-repeat: repeat-x;
+    width: 99%;
+    height: 12%;
+    left: 1px;
+  
+}
+    .bottom a:visited {
+        color: white;
+    }
+
+
+
+	.bottomtext {
+		position: absolute;
+		bottom: 1%;
+		}
+		
+		.linx {
+        position: absolute;
+        right: 1px;
+         text-align: right;
+        }
+        
+@media screen and (min-width: 601px) {
+  div.bottom {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 600) {
+  div.bottom {
+    font-size: 8px;
+  }
+} 
+        
+        
+        
+/* video */
+
+.video {
+    position: relative;
+    top: 1%;
+    width: 55%;
+}
+
+
+/* youtube */
+
+.youtube-responsive-container {
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.youtube-responsive-container iframe, 
+.youtube-responsive-container object, 
+.youtube-responsive-container embed {
+position:absolute;
+width:100%;
+height:100%;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    color: cyan;
+}
+
+
+
+</style>
+
