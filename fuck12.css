@@ -33,15 +33,21 @@ body {
 
 }
 
-    
-    
 .outer {
-    color: white;
-    background-color: black;
     width: 95%;
     position: absolute;
     left: 2.5%;
-    height: 100%;
+    color: white;
+    background-color: black;
+}
+    
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 89%;
+    position: absolute;
+    height: 300vh;
+    left: 10%;
     
 }
 
@@ -49,24 +55,50 @@ body {
 	line-height: 1;
 	text-align: justify;
 	font-size; 1.8vw;
-	position: relative;
-	top: 0px;
-	width: 100%;
-	height: 100vh;
+	top: 1%;
+    z-index: 1;
+    position: fixed;  
+    width: 10%;
+
 
 }
 
 .playlist {
     line-height: 1;
-    text-align: justify;
+    text-align: right;
     font-size: 1.8vw;
     position: relative;
-    top: 0px;
-    width: 100%;
-    height: auto;
+    top: 1%;
+    flex-basis: 25%;
+    align-self: flex-end;
     
 }
 
+/* video */
+
+.vid-container {   
+    top: 1%;
+    color: black;
+    flex-basis: 50%;
+    align-self: center;
+    position: sticky;
+    position: -webkit-sticky;
+    flex-grow: 1;
+}
+
+.video {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    left: 18%;
+    width: 100%;
+    bottom: 0px;
+}
+
+.gap {
+    position: relative;
+    min-height: 100vh;
+}
 @media screen and (min-width: 801px) {
   div.playlist {
     font-size: 1.8vw;
@@ -79,11 +111,6 @@ body {
   }
 } 
 
-.space {
-    height: 100vh;
-    position: relative;
-    color: black;
-}
 
 
 
@@ -128,13 +155,6 @@ body {
         
         
         
-/* video */
-
-.video {
-    position: relative;
-    top: 1%;
-    width: 55%;
-}
 
 
 /* youtube */
@@ -144,7 +164,6 @@ position:relative;
 padding-bottom:56.25%;
 padding-top:30px;
 height:0;
-overflow:hidden;
 }
 
 .youtube-responsive-container iframe, 
