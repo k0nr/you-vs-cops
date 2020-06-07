@@ -116,11 +116,11 @@ body {
 
 
 .bottom {
-    position: absolute;
+    position: fixed;
     bottom: 1px;
     width: 99%;
     height: auto;
-    left: 1px;
+    left: 12%;
   
 }
     .bottom a:visited {
@@ -258,6 +258,18 @@ body {
     }
 
 
+.outro:before {
+    content: 'fuck your curfew';
+}
+
+    .outro:visited:before {
+        content: 'good night (outro)';
+    }
+    
+    .outro:hover:before {
+        content: 'good night (outro)'
+    }
+    
 /* youtube */
 
 .youtube-responsive-container {
