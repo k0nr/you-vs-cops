@@ -155,7 +155,109 @@ body {
 } 
         
         
-        
+/* playlist links */
+
+.newspaper:before {
+    content: 'Defund CPD';
+}
+
+    .newspaper:visited:before {
+        content: 'Living Newspaper';
+    }
+
+    .newspaper:hover:before {
+        content: 'Living Newspaper';
+    }
+
+.daryl:before {
+    content: 'ACAB';
+}
+
+    .daryl:visited:before {
+        content: 'Daryl';
+    }
+    
+    .daryl:hover:before {
+        content: 'Daryl';
+    }
+
+    
+.blackshow:before {
+    content: 'Show Up'
+}
+
+    .blackshow:visited:before {
+        content: 'Black Show';
+    }
+    
+    .blackshow:hover:before {
+        content: 'Black Show';
+    }
+
+    
+.tiny:before {
+    content: 'Say Their Names';
+}
+
+    .tiny:visited:before {
+        content: 'A Tiny Rebellion';
+    }
+    
+    .tiny:hover:before {
+        content: 'A Tiny Rebellion';
+    }
+
+    
+.atgo:before {
+    content: 'at go! we will scream real loud with the lights real bright and our eyes shut tight and our hearts real full cause we gotta get it out even just for a moment just one tender moment, all of us, together';
+}
+
+    .atgo:visited:before {
+        content: 'at go! we will scream real loud with the lights real bright and our eyes shut tight and our hearts real full cause we gotta get it out even just for a moment just one tender moment, all of us, together';
+    }
+    
+    .atgo:hover:before {
+        content: 'at go! we will scream real loud with the lights real bright and our eyes shut tight and our hearts real full cause we gotta get it out even just for a moment just one tender moment, all of us, together';
+    }
+    
+.teenager:before {
+    content: 'no justice no peace';
+}
+
+    .teenager:visited:before {
+        content: 'To the Black Teenager';
+    }
+    
+    .teenager:hover:before {
+        content: 'To the Black Teenager';
+    }
+    
+
+    
+.lasagna:before {
+    content: 'wake up and fight';
+}
+
+    .lasagna:visited:before {
+        content: 'eating lasagna with garfield';
+    }
+    
+    .lasagna:hover:before {
+        content: 'eating lasagna with garfield';
+    }
+
+
+.friend:before {
+    content: 'black lives matter';
+}
+
+    .friend:visited:before {
+        content: 'play for a friend';
+    }
+    
+    .friend:hover:before {
+        content: 'play for a friend';
+    }
 
 
 /* youtube */
