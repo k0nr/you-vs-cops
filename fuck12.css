@@ -44,21 +44,21 @@ body {
 .flex-container {
     display: flex;
     flex-direction: row;
-    width: 89%;
+    width: 87%;
     position: absolute;
     height: 275vh;
-    left: 10%;
+    left: 12%;
     
 }
 
 .counter {
 	line-height: 1;
 	text-align: justify;
-	font-size; 1.8vw;
 	top: 1%;
     z-index: 1;
     position: fixed;  
-    width: 10%;
+    width: 12%;
+    font-size: 2.4vw;
 
 
 }
@@ -71,7 +71,7 @@ body {
     top: 1%;
     flex-basis: 25%;
     align-self: flex-end;
-    height: 100vh;
+    height: 90vh;
     
 }
 
