@@ -116,12 +116,10 @@ body {
 
 
 .bottom {
-    position: fixed;
+    position: absolute;
     bottom: 1px;
-    background: url("images/transparent-fire-gif.gif");
-    background-repeat: repeat-x;
     width: 99%;
-    height: 12%;
+    height: auto;
     left: 1px;
   
 }
@@ -158,7 +156,7 @@ body {
 /* playlist links */
 
 .newspaper:before {
-    content: 'Defund CPD';
+    content: 'abolish police';
 }
 
     .newspaper:visited:before {
@@ -209,7 +207,7 @@ body {
 
     
 .atgo:before {
-    content: 'at go! we will scream real loud with the lights real bright and our eyes shut tight and our hearts real full cause we gotta get it out even just for a moment just one tender moment, all of us, together';
+    content: "remember! the Chicago Police Department's budget is 1.7 billion dollars/yr. 40% of the city's entire budget! defund CPD. invest in communities, housing, education, health care, social services, art."
 }
 
     .atgo:visited:before {
